@@ -30,7 +30,7 @@ Config.Standalone = false
 Config.EnableOutline = false
 
 -- Whether to have the target as a toggle or not
-Config.Toggle = true
+Config.Toggle = false
 
 -- Draw a Sprite on the center of a PolyZone to hint where it's located
 Config.DrawSprite = false
@@ -57,7 +57,7 @@ Config.DisableInVehicle = false
 Config.OpenKey = 'LMENU' -- Left Alt
 
 -- Control for key press detection on the context menu, it's the Right Mouse Button by default, controls are found here https://docs.fivem.net/docs/game-references/controls/
-Config.MenuControlKey = 238
+Config.MenuControlKey = 19
 
 -------------------------------------------------------------------------------
 -- Target Configs
