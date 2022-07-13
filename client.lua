@@ -219,7 +219,7 @@ local function CheckEntity(flag, datatable, entity, distance)
 			LeftTarget()
 			DrawOutlineEntity(entity, false)
 			break
-		elseif not hasFocus and IsDisabledControlPressed(0, Config.MenuControlKey) then
+		elseif not hasFocus then
 			EnableNUI(nuiData)
 			DrawOutlineEntity(entity, false)
 		else
@@ -332,7 +332,7 @@ local function EnableTarget()
 										LeftTarget()
 										DrawOutlineEntity(entity, false)
 										break
-									elseif not hasFocus and IsDisabledControlPressed(0, Config.MenuControlKey) then
+									elseif not hasFocus then
 										EnableNUI(nuiData)
 										DrawOutlineEntity(entity, false)
 									else
@@ -403,7 +403,7 @@ local function EnableTarget()
 								LeftTarget()
 								DrawOutlineEntity(entity, false)
 								break
-							elseif not hasFocus and IsDisabledControlPressed(0, Config.MenuControlKey) then
+							elseif not hasFocus then
 								EnableNUI(nuiData)
 								DrawOutlineEntity(entity, false)
 							end
