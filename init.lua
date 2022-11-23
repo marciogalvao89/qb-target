@@ -21,13 +21,13 @@ Config = {}
 Config.MaxDistance = 7.0
 
 -- Enable debug options
-Config.Debug = false
+Config.Debug = true
 
 -- Supported values: true, false
 Config.Standalone = false
 
 -- Enable outlines around the entity you're looking at
-Config.EnableOutline = false
+Config.EnableOutline = true
 
 -- Whether to have the target as a toggle or not
 Config.Toggle = false
