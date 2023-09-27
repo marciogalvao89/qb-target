@@ -21,19 +21,19 @@ Config = {}
 Config.MaxDistance = 7.0
 
 -- Enable debug options
-Config.Debug = true
+Config.Debug = false
 
 -- Supported values: true, false
 Config.Standalone = false
 
 -- Enable outlines around the entity you're looking at
-Config.EnableOutline = true
+Config.EnableOutline = false
 
 -- Whether to have the target as a toggle or not
 Config.Toggle = false
 
 -- Draw a Sprite on the center of a PolyZone to hint where it's located
-Config.DrawSprite = true
+Config.DrawSprite = false
 
 -- The default distance to draw the Sprite
 Config.DrawDistance = 10.0
